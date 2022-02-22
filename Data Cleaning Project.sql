@@ -119,6 +119,10 @@ Select *
 From PortfolioProject..[Nashville Housing]
 
 
+
+
+
+
 -- Change Y and N to Yes and No in Sold as Vacant field
 
 Select Distinct(SoldAsVacant), COUNT(SoldAsVacant)
@@ -141,6 +145,10 @@ SET SoldAsVacant = CASE When SoldAsVacant = 'Y' THEN 'Yes'
 
 
 
+
+
+
+
 -- Remove Duplicates
 
 WITH RowNumCTE as(
@@ -152,6 +160,10 @@ From PortfolioProject..[Nashville Housing]
 DELETE
 From RowNumCTE
 Where row_num > 1
+
+
+
+
 
 
 
