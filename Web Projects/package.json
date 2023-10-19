@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-todo",
+  "version": "1.0.0",
+  "description": "A barebones to-do list ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error\" && exit 1"
+  },
+  "author": "Joshua Corpuz",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "bootstrap": "^5.3.2",
+    "ejs": "^3.1.9",
+    "express": "^4.15.4"
+  }
+}
